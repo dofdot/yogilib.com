@@ -13,15 +13,14 @@
                <hr>
             <p>The downloads. Send more at yogi@yogilib.com. Dates are sorted in ascending order.</p> 
         <div>
-            <table style="width:100%;"
-                <tr>
-                   <th style="width: 75%">File</th>
-                </tr> 
-                </tr>
-                   
-                </tr>
-            </table>
-        </div>
-            <? php include 'pdf-link.php';?> 
+           <?php 
+           $directory = "../content/yogi-narharinath-letters";
+           $phpfiles = glob($directory . "*.pdf");
+           foreach($phpfiles as $phpfile)
+                {
+                echo "<a href=$phpfile>".basename($phpfile)."</a>";
+                } 
+           ?>
+            </div>
     </body>
     </html> 

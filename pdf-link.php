@@ -1,6 +1,7 @@
 <?php 
-$directory = "content/yogi-narharinath-letters/";
-$phpfiles = scandir($directory, 1);
+$directory = "/content/yogi-narharinath-letters/";
+
+phpfiles = scandir($directory, 1);
 
 foreach ($phpfiles as $php_file)
 {
