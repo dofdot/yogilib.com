@@ -1,44 +1,56 @@
-
-
 body {
-    font-family: 'Hind', sans-serif;
-    background-color: #d77443;
-    margin:0 auto; max-width: 700px;
+    font-family: 'Roboto Slab', serif;
+    background-color: #fdfffc;
+    margin:0 auto; max-width: 850px;
 }
 
-table, th, td {
-    border: 1px solid black;
-  }
-p {
-    
-    color: black;
-}
-.heading-text p{
-    text-align: center;
-    font-size: 20px;
-}
-
-.main-heading h1{
-    text-align: center;
-    font-weight: 300;
-    transition: transform .2s;
-}
-
-.main-heading h1:hover{
-    transform: scale(1.5);
-}
-
-
-
-.second-heading { 
-     font-weight: 40;
-     text-align: center;
+hr {
+    border: 10px solid #235789;
  }
 
 
+p {
+    text-align: center;
+    font-size: 120%; 
+    color: #C1292E;
+}
 
- hr {
-    border: 10px solid red;
+.header {
+    display: flex; 
+    background-color: #DE8F35;
+}
+
+.header img{
+    max-width: 15%;
+    margin-top: 1cm;
+    border-radius: 50%;
+    margin-bottom: 0.5cm;
+    margin-left: 3%;
+}
+
+.header a{
+    text-decoration: none;
+}
+
+.main-heading{
+    color: #235789;
+    font-size: 70px;
+    font-weight: bolder;
+    margin-bottom: 0%;
+    margin-top: 1.5cm;
+    margin-left: 1cm;
+}
+
+.large-nepali-font{
+    text-align: center;
+    color: #72405C;
+    font-size: 130%;
+}
+
+.second-heading { 
+     font-weight: 40;
+     text-decoration: none;
+     text-align: Right;
  }
 
  .navigation{
@@ -53,16 +65,16 @@ p {
  .navigation a:link, a:visited{
     text-decoration: none;
     display: inline-block;
-    margin: 8px 10px;
-    padding: 7px;
-    outline: 3px solid green;
+    margin: 8px 12px;
+    padding: 5px;
+    outline: 3px solid #020100;
     outline-style: solid;
-    color: darkgreen;
+    color: #2E2D2C;
     font-size: 22px;
   }
 
 .navigation a:hover, a:active{
-      background-color: green;
+      background-color: #2E2D2C;
       color: white;
   }
 
