@@ -1,6 +1,8 @@
 body {
     font-family: 'Roboto Slab', serif;
     background-color: #fdfffc;
+    max-width: 800px;
+    margin: auto;
 }
 
 .heading p{
@@ -58,14 +60,14 @@ body {
     display: inline-block;
     margin: 8px 12px;
     padding: 5px;
-    outline: 3px solid #34d00d;
+    outline: 3px solid #384436;
     outline-style: solid;
     color: #2E2D2C;
     font-size: 22px;
   }
 
 .navigation a:hover, a:active{
-      background-color: #146f14;
+      background-color: #41d341;
       color: white;
   }
 

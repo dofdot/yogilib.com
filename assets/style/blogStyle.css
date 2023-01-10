@@ -1,6 +1,6 @@
 body {    
     font-family: 'Roboto Slab', serif;
-    background-color: #eb760a;
+    background-color: #ffffff;
 }
 
 .reading-layout{ 
@@ -12,6 +12,8 @@ body {
     width: 250px;
     margin: auto;
     display: block;
+    padding-top: 50px;
+    border-radius:50%;
 }
 
 .reading-layout p{
@@ -41,11 +43,11 @@ body {
 }
 
 .reading-layout a{
-    color: #679021;
-    text-decoration: none;
+    color: #080cf3;
+    text-decoration: underline;
 }
 
 .reading-layout a:hover{
-    color: #b61620;
+    color: #f10d1c;
 }
 
