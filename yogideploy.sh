@@ -14,7 +14,7 @@ echo "Currently pushing the blog files to the vps via RSYNC!"
 echo "----------------------------------------------------------"
 
 #HUGO AND RSYNC
-rsync -avz --delete ${LCL_DIR}/ ${USER}@${HOSTNAME}:${VPS_DIR}   
+rsync -avz --delete ${LCL_DIR}/ webby:${VPS_DIR}   
 
 echo "----------------------------------------------------------"
 echo "Published the blog contents to ${WEBSITE} on ${dt}"
