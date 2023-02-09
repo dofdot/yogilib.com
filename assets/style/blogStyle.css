@@ -18,6 +18,7 @@ body {
 
 .reading-layout p{
     text-align: left;
+    font-size: 20px;
 }
 .reading-layout h1{
     text-align: center;
@@ -43,11 +44,27 @@ body {
 }
 
 .reading-layout a{
-    color: #080cf3;
-    text-decoration: underline;
+    color: #19de16;
+    text-decoration: none;
 }
 
 .reading-layout a:hover{
     color: #f10d1c;
+}
+
+.reading-layout ul{
+    color: rgb(11, 110, 110);
+}
+
+#back-button{
+    color: #f10d1c;
+    text-decoration: none;
+    outline: 3px solid #f10d1c;
+    padding: 3px;
+}
+
+#back-button:hover{
+    background-color: #f10d1c;
+    color: #fff9f9;
 }
 
