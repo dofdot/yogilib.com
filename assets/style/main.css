@@ -1,24 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada&display=swap');
+
 body {
-    font-family: 'Roboto Slab', serif;
-    background-color: #fdfffc;
+    font-family: 'Labrada', serif;
+    background-color: #ffffff;
     max-width: 800px;
     margin: auto;
 }
 
 .header{
     display: flex; 
+    flex-direction: column;
     justify-content: center;  
     align-items: center;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
     
 }
 
 .header img{
-    max-width: 100px;
-    margin-top: 1cm;
-    border-radius: 50%;
-    margin-bottom: 1cm;
+    max-width: 200px;
+    margin-top: 5px;
+    border-radius: 30%;
+    margin-bottom: 1px;
+    border: 10px solid #ff6a00;
 }
 
 .header a:link{
@@ -26,6 +30,12 @@ body {
     text-decoration: underline; 
     font-size: 95px;
     font-weight: bolder;
+}
+
+.header b{
+    font-size: 35px;
+    margin-bottom: 5px;
+    color: #e3173d;
 }
 
 .header a:hover a:active{
@@ -37,14 +47,11 @@ body {
     font-size: 25px;
 }
 
-
-
 .large-nepali-font{
     text-align: center;
     color: #72405C;
-    font-size: 130%;
+    font-size: 110%;
 }
-
 
  .navigation{
     text-align: center;
@@ -66,7 +73,7 @@ body {
   }
 
 .navigation a:hover, a:active{
-      background-color: #e37a17;
+      background-color: #0a29ef;
       color: white;
   }
 

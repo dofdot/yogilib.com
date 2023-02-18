@@ -1,15 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Labrada&display=swap');
+
 body {    
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Labrada', serif;
+    font-size: 23px;
+    font-weight: 400;
     background-color: #ffffff;
 }
 
 .reading-layout{ 
    margin: auto;
-   width: 50%;
+   width: 65%;
 }
 
 .reading-layout img{
-    width: 250px;
+    width: 200px;
     margin: auto;
     display: block;
     padding-top: 50px;
@@ -18,15 +22,17 @@ body {
 
 .reading-layout p{
     text-align: left;
-    font-size: 20px;
+    color: rgb(0, 0, 0);
 }
 .reading-layout h1{
+    font-size: 55px;
     text-align: center;
-    color: #b51771;
+    color: #2a3f31fe;
 }
 
 .reading-layout h2{
     color: #b61620;
+    text-align: center;
 }
 
 .reading-layout h3{
@@ -36,30 +42,32 @@ body {
 }
 
 .reading-layout h4{
-    color: #1a5a4a;
+    color: #09f0b7;
 }
 
 .reading-layout h5{
-    color: rgb(166, 9, 121);
+    color: rgb(240, 10, 175);
 }
 
 .reading-layout a{
-    color: #19de16;
+    color: #8800ff;
     text-decoration: none;
 }
 
 .reading-layout a:hover{
-    color: #f10d1c;
+    color: #1c516b;
 }
 
 .reading-layout ul{
-    color: rgb(11, 110, 110);
+    color: rgb(9, 236, 236);
 }
 
+.reading-layout em, i {
+    color: #ff0000;
+}
 #back-button{
     color: #f10d1c;
     text-decoration: none;
-    outline: 3px solid #f10d1c;
     padding: 3px;
 }
 
