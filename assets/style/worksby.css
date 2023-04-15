@@ -1,19 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari&display=swap');
 
 body {    
     background-color: #ffffff;
-    font-family: 'Yatra one', cursive;
-    font-size: 30px;
-
+    font-family: 'Noto Sans Devanagari', sans-serif;
+    font-size: 13px;
 }
 
 .header-settings{
     margin: auto;
-    width: 50%;
+    width: 80%;
 }
 
 .header-settings img{
-    width: 200px;
+    width: 150px;
     margin: auto;
     display: block;
     padding-top: 5px;
@@ -32,10 +31,16 @@ body {
 }
 
 .work-list{
-    display: flex; 
+    display: flex;
+    list-style: none; 
 }
 
-.work-list ol{
-    margin: auto;
+.work-list ol{  
+    margin-left: 100px;
     list-style-type: devanagari;
+}
+
+.work-list li{
+    float: left;
+    width:20%;
 }

@@ -55,7 +55,7 @@ body {
 }
 
 .reading-layout a:hover{
-    color: #1c516b;
+    color: #00a9fd;
 }
 
 .reading-layout ul{
@@ -67,7 +67,7 @@ body {
 }
 #back-button{
     color: #f10d1c;
-    text-decoration: none;
+    text-decoration: underline;
     padding: 3px;
 }
 
